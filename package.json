@@ -1,14 +1,13 @@
 {
-  "name": "first api",
+  "name": "nome-sua-api",
   "version": "1.0.0",
-  "description": "minha primeira API",
+  "description": "descrição sua API",
   "main": "server.js",
-  "scripts": {},
+  "scripts": {
+  
+  },
   "keywords": [],
-  "author": "Cristhian Rangel Fernandes",
+  "author": "Seu Nome Completo",
   "license": "ISC",
-  "type": "module",
-  "dependencies": {
-    "express": "^5.1.0"
-  }
+  "type": "module"
 }
