@@ -1,13 +1,13 @@
 {
-  "name": "nome-sua-api",
+  "name": "api-teste",
   "version": "1.0.0",
-  "description": "descrição sua API",
+  "description": "futebol",
   "main": "server.js",
   "scripts": {
   
   },
   "keywords": [],
-  "author": "Seu Nome Completo",
+  "author": "Cristhian Rangel Fernandes",
   "license": "ISC",
   "type": "module"
 }
