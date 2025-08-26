@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "futebol",
   "main": "server.js",
-  "scripts": {
-  
-  },
+  "scripts": {},
   "keywords": [],
   "author": "Cristhian Rangel Fernandes",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
