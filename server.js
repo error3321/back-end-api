@@ -6,6 +6,7 @@ const { Pool } = pkg;
 import express from "express";
 const app = express();
 const port = 3000;
+
 let pool = null;
 
 // Função para obter uma conexão com o banco de dados
