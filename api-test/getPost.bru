@@ -1,0 +1,20 @@
+meta {
+  name: getPost
+  type: http
+  seq: 8
+}
+
+post {
+  url: https://back-end-api-one.vercel.app/questoes
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "enunciado": "Qual é a capital da França?",
+    "disciplina": "Geografia",
+    "tema": "Capitais do mundo",
+    "nivel": 1
+  }
+}
