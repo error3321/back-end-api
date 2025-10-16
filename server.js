@@ -4,6 +4,7 @@ import pkg from "pg";
 import dotenv from "dotenv";
 
 const app = express();
+app.use(express.json()); // Middleware para interpretar requisições com corpo em JSON
 const port = 3000;
 dotenv.config();
 const { Pool } = pkg;
@@ -183,6 +184,3 @@ app.put("/questoes/:id", async (req, res) => {
 app.listen(port, () => {
   console.log(`Serviço rodando na porta: ${port}`);
 });
-
-//server.js - configuração do servidor
-app.use(express.json()); // Middleware para interpretar requisições com corpo em JSON
