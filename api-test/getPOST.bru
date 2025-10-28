@@ -1,10 +1,10 @@
 meta {
-  name: getPUT
+  name: getPOST
   type: http
-  seq: 8
+  seq: 7
 }
 
-put {
+post {
   url: https://back-end-api-one.vercel.app/questoes/
   body: json
   auth: inherit
@@ -12,9 +12,9 @@ put {
 
 body:json {
   {
-    "enunciado": "Qual é a capital da Bélgica?",
+    "enunciado": "Qual é a capital do Brasil?",
     "disciplina": "Geografia",
     "tema": "Capitais do mundo",
-    "nivel": 3
+    "nivel": 1
   }
 }

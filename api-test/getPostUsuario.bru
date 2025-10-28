@@ -1,0 +1,19 @@
+meta {
+  name: getPostUsuario
+  type: http
+  seq: 12
+}
+
+post {
+  url: https://congenial-system-wr96vg6r5xvv25766-3000.app.github.dev/usuarios
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "nome": "Maria Oliveira",
+    "email": "maria.oliveira@example.com",
+    "senha": "123456"
+  }
+}
